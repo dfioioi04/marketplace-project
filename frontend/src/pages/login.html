@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-900 text-white flex justify-center items-center min-h-screen p-4">
+
+    <div class="bg-gray-800 p-6 sm:p-8 rounded-lg shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md">
+        <h2 class="text-xl sm:text-2xl font-bold text-center text-gray-200 mb-5">Login</h2>
+        
+        <form action="#" method="POST">
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-gray-300 text-sm mb-1" for="username">Username</label>
+                    <input type="text" id="username" name="username" class="w-full p-2 text-sm rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500">
+                </div>
+
+                <div>
+                    <label class="block text-gray-300 text-sm mb-1" for="password">Password</label>
+                    <input type="password" id="password" name="password" class="w-full p-2 text-sm rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500">
+                </div>
+            </div>
+
+            <button type="submit" class="w-full bg-gray-600 hover:bg-gray-500 active:bg-gray-700 text-white py-2 rounded-md mt-5 text-sm transition-all duration-200">
+                Masuk
+            </button>
+        </form>
+
+        <p class="text-gray-400 text-xs text-center mt-4">Belum punya akun?  
+            <a href="register.html" class="text-gray-300 hover:underline focus:underline active:underline transition-all duration-200">Daftar</a>
+        </p>
+    </div>
+
+</body>
+</html>
